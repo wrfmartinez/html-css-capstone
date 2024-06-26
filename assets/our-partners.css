@@ -1,0 +1,15 @@
+.partners__partners-title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.partners__partner-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.partners__partner-link {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
