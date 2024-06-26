@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/index.css" rel="stylesheet" />
+    <link href="assets/contact-us.css" rel="stylesheet" />
+    <title>Contact us</title>
+  </head>
+  <body>
+    <nav class="nav__navbar">
+      <a href="/"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" zoomAndPan="magnify" viewBox="0 0 30 30.000001" height="40" preserveAspectRatio="xMidYMid meet" version="1.0"><defs><clipPath id="dbfabe9b8b"><path d="M 0.914062 5.730469 L 29.222656 5.730469 L 29.222656 23.152344 L 0.914062 23.152344 Z M 0.914062 5.730469 " clip-rule="nonzero"/></clipPath></defs><g clip-path="url(#dbfabe9b8b)"><path fill="#8c52ff" d="M 14.996094 5.832031 L 0.914062 19.914062 L 4.234375 23.234375 L 14.996094 12.472656 L 25.753906 23.234375 L 29.074219 19.914062 Z M 14.996094 5.832031 " fill-opacity="1" fill-rule="nonzero"/></g></svg></a>
+      <ul class="nav__nav-links">
+        <li class="nav__nav-link">
+          <a href="/pages/who-we-are.html" class="nav__nav-link">Who we are</a>
+        </li>
+        <li class="nav__nav-links-item">
+          <a href="/pages/case-studies.html" class="nav__nav-link"
+            >Case studies</a
+          >
+        </li>
+        <li class="nav__nav-links-item">
+          <a href="/pages/our-partners.html" class="nav__nav-link"
+            >Our partners</a
+          >
+        </li>
+        <li class="nav__nav-links-item">
+          <a href="/pages/contact-us.html" class="nav__nav-link">Contact us</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <form action="#" method="POST">
+        <fieldset>
+          <div class="form__form-name">
+            <label for="name">Full name: </label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your full name"
+            />
+          </div>
+          <div class="form__form-email">
+            <label for="name">Email: </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email address"
+            />
+          </div>
+          <div class="form__form-message">
+            <label for="message">Message: </label>
+            <textarea id="message" name="message"></textarea>
+          </div>
+          <div class="form__form-subscribe">
+            <input type="checkbox" id="subscribe" name="subscribe" />
+            <label for="name">Subscribe to our newsletter</label>
+          </div>
+          <input type="submit" />
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
