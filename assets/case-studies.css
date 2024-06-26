@@ -1,0 +1,24 @@
+.case-study__case-study-title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.case_study__case-study-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.case-study__case-study-subtitle {
+  font-weight: 500;
+}
+
+.map-img {
+  margin-bottom: 1rem;
+}
+
+.accend-logo {
+  width: 100%;
+  margin: 0 auto;
+}
