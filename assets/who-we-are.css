@@ -1,0 +1,31 @@
+.about__about-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.about__about-title {
+  font-size: 3rem;
+  width: 600px;
+  margin-bottom: 2rem;
+}
+
+.about__about-portrait {
+  overflow: hidden;
+  height: 500px;
+}
+
+.about__about-portrait img {
+  object-fit: fill;
+  transform: scale(120%) translateY(10px);
+}
+
+.about__about-subtitle {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about__about-bio {
+  margin-top: 1rem;
+}
